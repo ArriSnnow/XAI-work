@@ -1,1 +1,69 @@
+category,metric,method,value,value_type,unit,n
+likert,clarity,Grad-CAM,3.80,mean,1-5,51
+likert,clarity,Integrated Gradients,3.75,mean,1-5,51
+likert,clarity,LIME,3.01,mean,1-5,51
+likert,clarity,Saliency,3.06,mean,1-5,51
+
+likert,relevance,Grad-CAM,3.69,mean,1-5,51
+likert,relevance,Integrated Gradients,3.83,mean,1-5,51
+likert,relevance,LIME,3.34,mean,1-5,51
+likert,relevance,Saliency,3.17,mean,1-5,51
+
+likert,trust,Grad-CAM,3.66,mean,1-5,51
+likert,trust,Integrated Gradients,3.86,mean,1-5,51
+likert,trust,LIME,3.09,mean,1-5,51
+likert,trust,Saliency,3.07,mean,1-5,51
+
+likert,usefulness,Grad-CAM,3.64,mean,1-5,51
+likert,usefulness,Integrated Gradients,3.86,mean,1-5,51
+likert,usefulness,LIME,3.11,mean,1-5,51
+likert,usefulness,Saliency,2.91,mean,1-5,51
+
+overall,mean_rating,Grad-CAM,4.16,mean,1-5,51
+overall,mean_rating,Integrated Gradients,3.83,mean,1-5,51
+overall,mean_rating,LIME,3.61,mean,1-5,51
+overall,mean_rating,Saliency,2.87,mean,1-5,51
+
+overall,mean_rating_sd,Grad-CAM,0.28,sd,1-5,51
+overall,mean_rating_sd,Integrated Gradients,0.29,sd,1-5,51
+overall,mean_rating_sd,LIME,0.30,sd,1-5,51
+overall,mean_rating_sd,Saliency,0.33,sd,1-5,51
+
+preference,time_budget_1s,Grad-CAM,69.4,percentage,%,49
+preference,time_budget_1s,Saliency,20.4,percentage,%,49
+preference,time_budget_1s,LIME,10.2,percentage,%,49
+
+preference,semantic_coherence,Integrated Gradients,54.9,percentage,%,51
+preference,semantic_coherence,Grad-CAM,51.0,percentage,%,51
+preference,semantic_coherence,Saliency,17.6,percentage,%,51
+preference,semantic_coherence,LIME,13.7,percentage,%,51
+
+cognitive_load,easiest_first,Grad-CAM,46.0,percentage,%,50
+cognitive_load,easiest_first,Integrated Gradients,27.5,percentage,%,50
+cognitive_load,easiest_first,LIME,16.0,percentage,%,50
+cognitive_load,easiest_first,Saliency,9.8,percentage,%,50
+
+cognitive_load,average_rank,Grad-CAM,1.88,mean_rank,1=best,51
+cognitive_load,average_rank,Integrated Gradients,2.37,mean_rank,1=best,51
+cognitive_load,average_rank,LIME,2.86,mean_rank,1=best,51
+cognitive_load,average_rank,Saliency,2.86,mean_rank,1=best,51
+
+preference,model_debugging_best,Integrated Gradients,39.2,percentage,%,51
+preference,model_debugging_best,Grad-CAM,37.3,percentage,%,51
+preference,model_debugging_best,LIME,11.8,percentage,%,51
+preference,model_debugging_best,Saliency,11.8,percentage,%,51
+
+preference,human_interpretability_best,Integrated Gradients,41.2,percentage,%,51
+preference,human_interpretability_best,Grad-CAM,35.3,percentage,%,51
+preference,human_interpretability_best,LIME,15.7,percentage,%,51
+preference,human_interpretability_best,Saliency,7.8,percentage,%,51
+
+metric_intuitiveness,preferred_metric,IoU,54.0,percentage,%,50
+metric_intuitiveness,preferred_metric,Insertion AUC,38.0,percentage,%,50
+metric_intuitiveness,preferred_metric,Deletion AUC,8.0,percentage,%,50
+
+robustness,perceived_noise_robustness,Grad-CAM,45.1,percentage,%,51
+robustness,perceived_noise_robustness,Integrated Gradients,33.3,percentage,%,51
+robustness,perceived_noise_robustness,Saliency,17.6,percentage,%,51
+robustness,perceived_noise_robustness,LIME,3.9,percentage,%,51
 
