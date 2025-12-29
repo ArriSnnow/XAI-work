@@ -1,5 +1,8 @@
 # Data Description
 
+## Survey
+This file contains aggregated statistics corresponding to the human-centered evaluation results reported in the paper.
+
 ## Dataset: Pascal VOC 2007 (Validation Set)
 
 This project uses images from the Pascal VOC 2007 validation set for
