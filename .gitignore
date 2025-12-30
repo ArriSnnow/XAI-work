@@ -1,1 +1,46 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.so
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Data (local / generated)
+# ----------------------------
+data/VOCdevkit/
+data/raw/
+data/*.zip
+data/*.tar
+data/*.tar.gz
+
+# Raw survey data (never commit)
+survey_raw_responses.csv
+survey/raw/
+
+# ----------------------------
+# Results (optional to ignore)
+# ----------------------------
+results/tmp/
+results/cache/
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+venv/
+.env/
+.envrc
+
+# ----------------------------
+# OS / Editor
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
