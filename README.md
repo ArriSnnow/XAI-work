@@ -29,12 +29,19 @@ Only **aggregated results** are included to preserve participant privacy.
 ## Repository Structure
 
 ├── src/ # Core implementation (reusable modules)
+
 │ ├── models.py # Model loading and preprocessing
+
 │ ├── data.py # Dataset loading (Pascal VOC 2007)
+
 │ ├── explainers.py # XAI methods (Grad-CAM, IG, Saliency, LIME)
+
 │ ├── metrics.py # Objective evaluation metrics
+
 │ └── visualization.py # Visualization and overlay utilities
+
 │
+
 ├── notebooks/ # Reproducible analysis notebooks
 │ ├── 01_explanation_generation.ipynb
 │ ├── 02_quantitative_metrics.ipynb
