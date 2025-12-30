@@ -43,21 +43,36 @@ Only **aggregated results** are included to preserve participant privacy.
 │
 
 ├── notebooks/ # Reproducible analysis notebooks
+
 │ ├── 01_explanation_generation.ipynb
+
 │ ├── 02_quantitative_metrics.ipynb
+
 │ ├── 03_survey_analysis.ipynb
+
 │ └── 04_figure_generation.ipynb
+
 │
+
 ├── data/
+
 │ ├── survey_results_summary.csv # Aggregated survey statistics
+
 │ ├── voc2007_val_image_ids.txt # Image IDs used in experiments
+
 │ └── README.md
+
 │
 ├── survey/
+
 │ └── consent_text.md # Participant consent and data handling
+
 │
+
 ├── README.md
+
 ├── LICENSE
+
 └── .gitignore
 
 ---
