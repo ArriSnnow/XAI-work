@@ -60,18 +60,17 @@ Only **aggregated results** are included to preserve participant privacy.
 
 │ ├── voc2007_val_image_ids.txt # Image IDs used in experiments
 
+│ ├── consent_text.md # Participant consent and data handling
+
 │ └── README.md
-
-│
-├── survey/
-
-│ └── consent_text.md # Participant consent and data handling
 
 │
 
 ├── README.md
 
 ├── LICENSE
+
+├── requirements.txt
 
 └── .gitignore
 
